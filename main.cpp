@@ -143,15 +143,6 @@ IntArr findPathBetweenLeafs(NodesArr* nodsArr, int leafVal1, int leafVal2) {
         arr.ptr[arr.size - 1 - (cnt++)] = leaf2->val;
         leaf2 = leaf2->parent;
     }
-    // for (int i = 0; i < list1Len; ++i) {
-    //     arr.ptr[i] = leaf1->val;
-    //     leaf1->parent;
-    // }
-    // arr.ptr[list1Len] = interSectNode->val;
-    // for (int i = 0; i < list2Len; ++i) {
-    //     arr.ptr[arr.size-1-i] = leaf2->val;
-    //     leaf2->parent;
-    // }
 
     return arr;    
 }
@@ -178,6 +169,7 @@ int main () {
 }
 
 
+// sample
 // 5
 // 10 10 1
 // 5 10 1
@@ -185,6 +177,7 @@ int main () {
 // 2 5 0
 // 4 5 0
 
+// sample
 // 8
 // 10 10 1
 // 5 10 1
