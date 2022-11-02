@@ -1,25 +1,27 @@
 # fictional-octo-waddle
 powerup tech
-
-compiled with:
-gcc -Wall main.c nodesUtilities.c 
-
-gcc versions used:
-gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
-gcc (GCC) 11.3.0
+<br/>
+<br/>compiled with:
+<br/>gcc -Wall main.c nodesUtilities.c 
+<br/>
+<br/>gcc versions used:
+<br/>gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+<br/>gcc (GCC) 11.3.0
 
 tested memory leak with:
-valgrind --leak-check=yes
+<br/>valgrind --leak-check=yes
 
 tested with example
-5
-10 10 1
-5 10 1
-3 10 0
-2 5 0
-4 5 0
-4
-4 2
-2 4
-4 3
-3 2
+<br/>
+<br/>
+5<br/>
+10 10 1<br/>
+5 10 1<br/>
+3 10 0<br/>
+2 5 0<br/>
+4 5 0<br/>
+4<br/>
+4 2<br/>
+2 4<br/>
+4 3<br/>
+3 2<br/>
