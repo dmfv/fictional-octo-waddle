@@ -143,21 +143,7 @@ void processTestCasesFromConsole(Tree_t* tree) {
 int main () {
     Tree_t tree;
     initTreeFromConsole(&tree);
-    printNodesArr(tree.leafsArr); // print array for understand leafs
+    // printNodesArr(tree.leafsArr); // print array for understand leafs
     processTestCasesFromConsole(&tree);
     deInitTree(&tree);
 }
-
-
-// additional test case
-// 5
-// 10 10 1
-// 5 10 1
-// 3 10 0
-// 2 5 0
-// 4 5 0
-// 4
-// 4 2
-// 2 4
-// 4 3
-// 3 2

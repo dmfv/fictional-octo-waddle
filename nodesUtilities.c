@@ -24,7 +24,7 @@ void printNodesArr (const NodesArr_t* nodsArr) {
 }
 
 void printIntArr(const IntArr_t* arr) {
-    printf("start printing: "); // delete this if necessary
+    printf("print arr: "); // delete this if necessary
     for (int i = 0; i < arr->size; ++i) {
         printf("%d ", arr->ptr[i]);
     }
